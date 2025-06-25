@@ -54,7 +54,7 @@ jobs:
         run: |
           set -e -o pipefail
           ./cruelbuild config                    \
-              os_patch_level=2020-12 \
+              os_patch_level=2099-12-31 \
               model=${{ matrix.model }} \
               name="NetHunterKernel" \
               toolchain=$TOOLCHAIN  \
