@@ -57,7 +57,6 @@ jobs:
               os_patch_level=2020-12 \
               model=${{ matrix.model }} \
               name="NetHunterKernel" \
-              toolchain=proton \
               +magisk=canary \
               +wireguard \
               +ttl \
